@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <link rel='stylesheet' href='styles.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
     <meta charset='utf-8'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
     <title>HTML documentation</title>
   </head>
   <body>
+    <nav id='navbar'>
+      <header>HTML Documentation</header>
+      <ul>
+        <li><a class='nav-link' href=#Introduction>Introduction</a></li>
+        <li><a class='nav-link' href=#What_you_should_already_know_and_have>What you should already know and have</a></li>
+        <li><a class='nav-link' href=#HTML_and_CSS>HTML and CSS</a></li>
+        <li><a class='nav-link' href=#Hello_World>Hello World</a></li>
+        <li><a class='nav-link' href=#The_h's>The h&apos;s</a></li>
+      </ul>
+    </nav>
     <main id='main-doc'>
       <section id='Introduction' class='main-section'>
         <header>Introduction</header>
@@ -19,7 +32,7 @@
       </section>
       <section id='What_you_should_already_know_and_have' class='main-section'>
         <header>What you should already know and have</header>
-        <p>This guide assumes you already know:</p>
+        <p>This guide assumes you already know and have:</p>
         <ul>
           <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
           <li>A text-editor of some sort, I recommend VSCode for beginners as most engineers use it and it has the most extensions to enable a load of customization. Other wanna-be sigma's would recommend Vim.. you do you.</li>
@@ -35,16 +48,13 @@
         <header>Hello World</header>
         <p>To get started with writing HTML open your text-editor and input an opening <code>&lt;html&gt;</code> element. All elements start with a less than sign (opening tag) and end with a greater than sign (closing tag). Close the html element with the same setup used with a opening element but use a slash after the opening tag.</p>
         <p>Once your code looks like the following:</p>
-        <pre><code>
-          &lt;html&gt;
-          
-          &lt;/html&gt;
-        </code></pre>
+        <pre><code>&lt;html&gt;
+&lt;/html&gt;</code></pre>
         <p>Enter an opening and closing h1 element and in-between those, type the text 'Hello World'. Your code should look like the following:</p>
         <pre>
           <code>&lt;html&gt;
             &lt;h1&gt;Hello World&lt;/h1&gt;
-          &lt;/html&gt;</code>
+&lt;/html&gt;</code>
         </pre>
         <p>After you've typed your code, use the terminal tab in VSCode to start your code into your browser. I saved my file as 'test.html' so input for the terminal will be 'start test.html'. Hit enter, VSCode will ask your browser and Voila! See how easy that was?</p>
       </section>
